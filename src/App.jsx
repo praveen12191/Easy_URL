@@ -5,13 +5,7 @@ import Search from './components/search'
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/create" element={<Create />} />
-          <Route path="/search" element={<Search />} />
-        </Routes>
-      </BrowserRouter>
+      hello
     </div>
   )
 }
